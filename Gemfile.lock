@@ -1,0 +1,25 @@
+GIT
+  remote: git://github.com/adambeynon/opal-jquery.git
+  revision: 9d4345df1d618df5b1614828b719d1fde618900e
+  specs:
+    opal-jquery (0.0.1)
+
+GIT
+  remote: git://github.com/adambeynon/opal-spec.git
+  revision: 4dd27749a4e696f774c3f64f3e3cbed5b0b22907
+  specs:
+    opal-spec (0.1.15)
+
+GEM
+  specs:
+    opal (0.3.22)
+    rake (0.9.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  opal
+  opal-jquery!
+  opal-spec!
+  rake
